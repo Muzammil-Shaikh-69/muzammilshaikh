@@ -1,0 +1,31 @@
+:root {
+  /* Colors */
+  --bg-light: #f9f9f9;
+  --text-dark: #1f1f1f;
+  --heading-dark: #333;
+  --primary-accent: #ff3c3c;
+
+  /* Fonts */
+  --font-main: 'Segoe UI', sans-serif;
+
+  /* Font Sizes */
+  --heading-lg: 32px;
+  --heading-md: 28px;
+  --heading-sm: 22px;
+
+  --text-lg: 18px;
+  --text-md: 16px;
+  --text-sm: 15px;
+
+  /* Padding */
+  --padding-lg: 60px 40px;
+  --padding-md: 40px 20px;
+  --padding-sm: 30px 15px;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* font-family: var(--font-main); */
+}

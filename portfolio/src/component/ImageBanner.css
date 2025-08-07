@@ -1,0 +1,32 @@
+.image-banner {
+  position: sticky;
+  top: 40px; /* adjust based on header height */
+  height: fit-content;
+  margin-top: -100px; /* overlaps half with header */
+  margin-left: 20px;
+  z-index: 1000;
+}
+
+.banner-img {
+      width: 200px;
+    height: 200px;
+    /* object-fit: scale-down; */
+    border-radius: 50%;
+    border: 4px solid var(--primary-accent);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Responsive image */
+@media (max-width: 768px) {
+  .image-banner {
+    position: static;
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+  }
+
+  .banner-img {
+    width: 150px;
+    height: 150px;
+  }
+}
